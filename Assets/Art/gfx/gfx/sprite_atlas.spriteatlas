@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: afe4c7c9c207ddd488047a8f89ea6ec9, type: 3}
-    totalSpriteSurfaceArea: 781633
+    totalSpriteSurfaceArea: 781889
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1646,6 +1646,7 @@ SpriteAtlas:
   - {fileID: 21300002, guid: 00c129afb91f13e4aa9d08febb00e560, type: 3}
   - {fileID: 21300004, guid: 00c129afb91f13e4aa9d08febb00e560, type: 3}
   - {fileID: 21300006, guid: 00c129afb91f13e4aa9d08febb00e560, type: 3}
+  - {fileID: 21300000, guid: c509aadfd243998449a1a1dc1057e7b7, type: 3}
   m_PackedSpriteNamesToIndex:
   - cave
   - character_14
@@ -3247,5 +3248,6 @@ SpriteAtlas:
   - modified gfx melee sprites_1
   - modified gfx melee sprites_2
   - modified gfx melee sprites_3
+  - key
   m_Tag: sprite_atlas
   m_IsVariant: 0

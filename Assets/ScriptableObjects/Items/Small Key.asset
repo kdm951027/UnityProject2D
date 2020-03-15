@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6a29c3f96d2cc644bbe973068e91de3, type: 3}
-  m_Name: HeartContainer
+  m_Script: {fileID: 11500000, guid: c7915b1a1c2335b468b238a60d70703d, type: 3}
+  m_Name: Small Key
   m_EditorClassIdentifier: 
-  initialValue: 3
+  itemSprite: {fileID: 21300000, guid: c509aadfd243998449a1a1dc1057e7b7, type: 3}
+  itemDescription: It's a Small Key. Find a door now.
+  isKey: 1
