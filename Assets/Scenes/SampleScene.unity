@@ -891,9 +891,17 @@ CompositeCollider2D:
       - X: -69992000
         Y: -52494000
       - X: -69992000
-        Y: -39996000
+        Y: -34371000
+      - X: -74367000
+        Y: -31246000
+      - X: -78742000
+        Y: -29996000
+      - X: -91864992
+        Y: -29996000
+      - X: -95614992
+        Y: -30621000
       - X: -99989992
-        Y: -39996000
+        Y: -36246000
       - X: -99989992
         Y: -52494000
       - X: -95614992
@@ -1362,8 +1370,12 @@ CompositeCollider2D:
       - {x: -7.9991, y: -5.8743668}
       - {x: -7.4367, y: -5.6869}
       - {x: -6.9992, y: -5.2494}
-      - {x: -6.9992, y: -3.9996}
-      - {x: -9.999, y: -3.9996}
+      - {x: -6.9992, y: -3.4371}
+      - {x: -7.4367, y: -3.1246}
+      - {x: -7.8742, y: -2.9996}
+      - {x: -9.1865, y: -2.9996}
+      - {x: -9.5615, y: -3.0621}
+      - {x: -9.999, y: -3.6246}
       - {x: -9.999, y: -5.2494}
       - {x: -9.5615, y: -5.6869}
       - {x: -9.1865, y: -5.8744}
@@ -4579,6 +4591,33 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -10, y: -4, z: 0}
+    second:
+      m_TileIndex: 111
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -9, y: -4, z: 0}
+    second:
+      m_TileIndex: 110
+      m_TileSpriteIndex: 13
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -8, y: -4, z: 0}
+    second:
+      m_TileIndex: 109
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: 16, y: -4, z: 0}
     second:
       m_TileIndex: 84
@@ -7625,12 +7664,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: fd4d9f718f8d2c648b844c740ebd4d42, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ba25c663dac294b45927a1a915aae68a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 54210545967d18b47a516db1f1f6f59a, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 3124edecdf5584a4b96d0c2c100e69c5, type: 2}
   - m_RefCount: 1
@@ -7718,12 +7757,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300746, guid: b0e0cd3c78c236b4a99837a479c9475b, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300744, guid: b0e0cd3c78c236b4a99837a479c9475b, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300742, guid: b0e0cd3c78c236b4a99837a479c9475b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300966, guid: b0e0cd3c78c236b4a99837a479c9475b, type: 3}
   - m_RefCount: 1
@@ -7981,7 +8020,7 @@ Tilemap:
   - m_RefCount: 6
     m_Data: {fileID: 21301464, guid: b0e0cd3c78c236b4a99837a479c9475b, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 652
+  - m_RefCount: 655
     m_Data:
       e00: 1
       e01: 0
@@ -8000,7 +8039,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 652
+  - m_RefCount: 655
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -34092,7 +34131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489104472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.52, y: 0.5, z: 0}
+  m_LocalPosition: {x: -6.55, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -35240,39 +35279,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ef17a8e1bc6b247997216065847cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signal: {fileID: 11400000, guid: 2de7c6b79e9d65946b0b7d5de5dfafa6, type: 2}
-  signalEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1543088322}
-        m_MethodName: Disable
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1543088321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543088319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93ef17a8e1bc6b247997216065847cb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   signal: {fileID: 11400000, guid: ef4e75bbc898e7f43b97cc6a5a1107aa, type: 2}
   signalEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1543088322}
-        m_MethodName: Enable
+        m_MethodName: ChangeContext
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35295,6 +35307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextClue: {fileID: 1064238177}
+  contextActive: 0
 --- !u!4 &1634605551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7142487885295543311, guid: 4794d3965f287714d8e8336b170c67c1,
@@ -35552,7 +35565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069686125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.52, y: 0.5, z: 0}
+  m_LocalPosition: {x: -8.51, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -35859,12 +35872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6db8514569e98942962f992c2252495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  contextOn: {fileID: 11400000, guid: ef4e75bbc898e7f43b97cc6a5a1107aa, type: 2}
-  contextOff: {fileID: 11400000, guid: 2de7c6b79e9d65946b0b7d5de5dfafa6, type: 2}
+  context: {fileID: 11400000, guid: ef4e75bbc898e7f43b97cc6a5a1107aa, type: 2}
+  playerInRange: 0
   dialogBox: {fileID: 1295004887}
   dialogText: {fileID: 1451508697}
   dialog: Reading the Map
-  playerInRange: 0
 --- !u!1001 &7142487886677206973
 PrefabInstance:
   m_ObjectHideFlags: 0
