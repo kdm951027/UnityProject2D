@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class RoomMove : MonoBehaviour
 {
+    //public Vector2 cameraMinChange;  //for more flexible change with varying map size
+    //public Vector2 cameraMaxChange;
     public Vector2 cameraChange;
     public Vector3 playerChange;
     private CameraMovement cam;
